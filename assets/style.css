@@ -1,0 +1,62 @@
+    html,
+    body {
+        height: 100%;
+        width: 100%;
+    }
+    
+    .flex-container {
+        display: flex;
+        justify-content: center;
+        font-family: 'Bungee', cursive;
+        font-size: 8rem;
+        width: 100%;
+        margin-top: 3rem;
+    }
+    
+    .flex-container h1 {
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 5rem;
+        text-align: center;
+    }
+    
+    .justfy-container {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        margin-top: 3rem;
+    }
+    
+    .justfy-container img {
+        width: 0.8rem;
+    }
+    
+    .player {
+        font-family: 'Bungee', cursive;
+        width: 200px;
+        height: 200px;
+        display: inline-block;
+        margin: 3rem;
+        padding: 2rem;
+    }
+    
+    .opponent {
+        font-family: 'Bungee', cursive;
+        width: 200px;
+        height: 200px;
+        display: inline-block;
+        margin: 3rem;
+        padding: 2rem;
+    }
+    
+    #nickname {
+        margin: 0.3rem;
+    }
+    
+    #deck {
+        margin: 0.3rem;
+    }
+    
+    p {
+        margin: 0.3rem;
+    }
