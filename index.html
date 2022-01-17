@@ -13,7 +13,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
 
-    <script src="assets/eventos.js"></script>
+
 
     <title>MTG Life Counter</title>
 </head>
@@ -34,17 +34,32 @@
             <p>Choose your color:</p>
             <form>
                 <input type="radio" id="Swamp" name="mana" value="Swamp">
-                <label for="Swamp">Swamp <img src="./assets/img/B.png"</label><br>
+                <label for="Swamp">Swamp <img src="./assets/img/B.png" /><br>
                 <input type="radio" id="Forest" name="mana" value="Forest">
-                <label for="Forest">Forest <img src="./assets/img/G.png"</label><br>
+                <label for="Forest">Forest <img src="./assets/img/G.png" /><br>
                 <input type="radio" id="Plains" name="mana" value="Plains">
-                <label for="Plains">Plains <img src="./assets/img/W.png"</label><br>
+                <label for="Plains">Plains <img src="./assets/img/W.png" /><br>
                 <input type="radio" id="Island" name="mana" value="Island">
-                <label for="Island">Island <img src="./assets/img/U.png"</label><br>
+                <label for="Island">Island <img src="./assets/img/U.png" /><br>
                 <input type="radio" id="Mountain" name="mana" value="Mountain">
-                <label for="Mountain">Mountain <img src="./assets/img/R.png"</label><br>
+                <label for="Mountain">Mountain <img src="./assets/img/R.png" /><br>
             </form>
         </div>
+
+        <div class="counter">
+            <p id="p1"></p>
+        </div>
+        <div class="history">
+            <textarea rows="16" id="history-1"></textarea>
+        </div>
+
+        <div class="history">
+            <textarea rows="16" id="history-2"></textarea>
+        </div>
+        <div class="counter">
+            <p id="p2"></p>
+        </div>
+
         <div class="opponent">
             <form>
                 <label for="nickname">Nickname:</label><br>
@@ -68,6 +83,33 @@
             </form>
         </div>
     </div>
+    <div class="control-footer">
+        <div class="control-1">
+            <p id="contador-1"></p>
+            <button id="btn_incrementar-1-1" type="button" class="button">+1</button>
+            <button id="btn_decrementar-1-1" type="button" class="button">-1</button>
+            <button id="btn_incrementar-1-5" type="button" class="button">+5</button>
+            <button id="btn_decrementar-1-5" type="button" class="button">-5</button>
+            <button id="btn_incrementar-1-10" type="button" class="button">+10</button>
+            <button id="btn_decrementar-1-10" type="button" class="button">-10</button>
+        </div>
+
+        <div class="button-main">
+            <button id="btn_main" type="button" class="button">Start game...</button>
+        </div>
+
+        <div class="control-2">
+            <p id="contador-2"></p>
+            <button id="btn_incrementar-2-1" type="button" class="button">+1</button>
+            <button id="btn_decrementar-2-1" type="button" class="button">-1</button>
+            <button id="btn_incrementar-2-5" type="button" class="button">+5</button>
+            <button id="btn_decrementar-2-5" type="button" class="button">-5</button>
+            <button id="btn_incrementar-2-10" type="button" class="button">+10</button>
+            <button id="btn_decrementar-2-10" type="button" class="button">-10</button>
+        </div>
+    </div>
+
+    <script src="assets/eventos.js"></script>
 </body>
 
 </html>
