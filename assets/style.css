@@ -81,57 +81,47 @@
     }
     
     #btn_incrementar-1-1,
-    #btn_decrementar-1-1,
     #btn_incrementar-2-1,
-    #btn_decrementar-2-1 {
-        font-family: 'Bungee', cursive;
-        font-size: 18px;
-        border: none;
-        box-shadow: 1px 1px green;
-        background-color: green;
-        width: 3rem;
-        height: 3rem;
-        color: #FFF;
-        border-radius: 1rem;
-    }
-    
     #btn_incrementar-1-5,
-    #btn_decrementar-1-5,
     #btn_incrementar-2-5,
-    #btn_decrementar-2-5 {
+    #btn_incrementar-1-10,
+    #btn_incrementar-2-10 {
         font-family: 'Bungee', cursive;
         font-size: 18px;
         border: none;
-        box-shadow: 1px 1px blue;
-        background-color: blue;
+        box-shadow: 1px 1px rgb(33, 207, 17);
+        background-color: rgb(33, 207, 17);
         width: 3rem;
         height: 3rem;
-        color: #FFF;
+        color: rgb(0, 0, 0);
         border-radius: 1rem;
     }
     
-    #btn_incrementar-1-10,
+    #btn_decrementar-1-1,
+    #btn_decrementar-2-1,
+    #btn_decrementar-1-5,
+    #btn_decrementar-2-5,
     #btn_decrementar-1-10,
-    #btn_incrementar-2-10,
     #btn_decrementar-2-10 {
         font-family: 'Bungee', cursive;
         font-size: 18px;
         border: none;
-        box-shadow: 1px 1px gray;
-        background-color: gray;
+        box-shadow: 1px 1px rgb(218, 10, 10);
+        background-color: rgb(218, 10, 10);
         width: 3rem;
         height: 3rem;
-        color: #FFF;
+        color: rgb(0, 0, 0);
         border-radius: 1rem;
     }
     
     #btn_main {
-        width: 8rem;
+        font-family: 'Bungee', cursive;
+        font-size: 2rem width: 8rem;
         height: 6rem;
         background-color: orange;
         border-radius: 2rem;
         font-size: 18px;
-        color: #FFF;
+        color: rgb(0, 0, 0);
     }
     
     .button {
@@ -139,5 +129,5 @@
     }
     
     .history textarea {
-        background-color: lightblue;
+        background-color: rgb(27, 28, 29);
     }
