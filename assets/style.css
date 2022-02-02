@@ -116,7 +116,8 @@
     
     #btn_main {
         font-family: 'Bungee', cursive;
-        font-size: 2rem width: 8rem;
+        font-size: 2rem;
+        width: 8rem;
         height: 6rem;
         background-color: orange;
         border-radius: 2rem;
@@ -130,4 +131,8 @@
     
     .history textarea {
         background-color: rgb(27, 28, 29);
+        color: #FFF;
+        font-family: 'Bungee', cursive;
     }
+
+    
